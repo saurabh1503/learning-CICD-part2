@@ -1,0 +1,23 @@
+actor: Tester
+paths:
+  tests: .
+  output: ../_output
+  data: ../_data
+  support: ../_support
+
+extensions:
+  enabled:
+    - Codeception\Extension\RunFailed
+
+modules:
+  enabled:
+    - REST
+    - \Helper\Acceptance
+
+  config:
+    REST:
+      url: '%MAGENTO_BASE_URL%'
+      depends: PhpBrowser
+      curl_options:
+        CURLOPT_SSL_VERIFYPEER: false
+        CURLOPT_SSL_VERIFYHOST: false
