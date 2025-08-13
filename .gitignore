@@ -1,0 +1,32 @@
+# Magento 2 standard .gitignore
+
+# Ignore generated files
+/generated/
+var/
+pub/static/
+pub/media/
+static/
+setup/src/
+vendor/
+node_modules/
+composer.lock
+
+# Ignore environment and IDE files
+.env
+.phpunit.result.cache
+.idea/
+.vscode/
+*.log
+
+# Ignore sensitive files
+app/etc/env.php
+app/etc/config.php
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore backup and temp files
+*.bak
+*.tmp
+*.swp
