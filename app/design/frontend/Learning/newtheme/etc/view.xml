@@ -10,7 +10,7 @@
         <images module="Magento_Catalog">
             <image id="bundled_product_customization_page" type="thumbnail">
                 <width>140</width>
-                <height>140</height>
+                <height>141</height>
             </image>
             <image id="cart_cross_sell_products" type="small_image">
                 <width>240</width>
